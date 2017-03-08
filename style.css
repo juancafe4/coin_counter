@@ -34,6 +34,25 @@
 .box {
   border: 3px solid #e2e0e2;
   background: #fbf9fb;
-  width: 50px;
+  width: 180px;
   height: 30px;
+  text-align: right;
+  margin-top: 15px;
 }
+
+.btn {
+  margin-top: 10px;
+  color: #888688;
+  background: #232123;
+}
+.btn:hover {
+  background: #fbf9fb;
+}
+.btn:active {
+  background: #232123 !important;
+}
+
+.btn:focus {
+  background: #232123 !important;
+}
+
