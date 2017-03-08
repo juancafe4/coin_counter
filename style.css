@@ -12,7 +12,7 @@
       position: relative;
 }
 
-.notification {
+#add25 {
       width: 20px;
       height: 20px;
       -webkit-border-radius: 10px;
@@ -24,14 +24,62 @@
       font-size: 10px;
       color: #bebcbe;
       position: absolute;
-      display: inline-block;
       margin-left: 35px;
+      display: none;
+}
+
+#add10 {
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background: #1f1d1f;
+      text-align: center;
+      line-height: 20px;
+      font-size: 10px;
+      color: #bebcbe;
+      position: absolute;
+      margin-left: 35px;
+      display: none;
+}
+
+#add5 {
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background: #1f1d1f;
+      text-align: center;
+      line-height: 20px;
+      font-size: 10px;
+      color: #bebcbe;
+      position: absolute;
+      margin-left: 35px;
+      display: none;
+}
+
+#add1 {
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background: #1f1d1f;
+      text-align: center;
+      line-height: 20px;
+      font-size: 10px;
+      color: #bebcbe;
+      position: absolute;
+      margin-left: 35px;
+      display: none;
 }
 .coin {
   margin-bottom: 5px;
 }
 
-.box {
+#box {
   border: 3px solid #e2e0e2;
   background: #fbf9fb;
   width: 180px;
@@ -56,3 +104,6 @@
   background: #232123 !important;
 }
 
+#clear {
+  display: none;
+}

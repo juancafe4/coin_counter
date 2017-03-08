@@ -14,6 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
   <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
 </head>
 <body>
   <div class="container">
@@ -22,33 +23,33 @@
         <h6 class="center-align"><strong>COIN COUNTER</strong></h6>
         <div class="row">
           <div class="coin col m4 offset-m2">
-            <div class="circle">
-              <div class="notification">
-                3
+            <div onclick="increase(25)" class="circle">
+              <div id="add25">
+                0
               </div>
               25
             </div>
           </div>
           <div class="coin col m4 offset-m2">
-            <div class="circle">
-              <div class="notification">
-                3
+            <div onclick="increase(10)" class="circle">
+              <div id="add10">
+                0
               </div>
               10
             </div>
           </div>
           <div class="coin col m4 offset-m2">
-            <div class="circle">
-              <div class="notification">
-                3
+            <div onclick="increase(5)" class="circle">
+              <div id="add5">
+                0
               </div>
               5
             </div>
           </div>
           <div class="coin col m4 offset-m2">
-            <div class="circle">
-              <div class="notification">
-                3
+            <div onclick="increase(1)"class="circle">
+              <div id="add1">
+                0
               </div>
               1
             </div>
@@ -57,13 +58,13 @@
           
           <div class="row bottom">
             <div class="col s10 offset-s2 m7 offset-m5 center-align">
-              <div class="box">14</div>
+              <div id="box"></div>
             </div>
             <div class="btns col s10 offset-s2 m10 offset-m2 center-align">
-              <button class="btn waves-light waves-default" type="button">Calculate</button>
+              <button onClick="calculate()" class="btn waves-light waves-default" type="button">Calculate</button>
             </div>
             <div class="btns col s10 offset-s2 m10 offset-m2 center-align">
-              <button class="btn waves-light waves-default" type="button">Clear</button>
+              <button onClick="clearAll()" id="clear" class="btn waves-light waves-default" type="button">Clear</button>
             </div>
           </div>
         </div>
