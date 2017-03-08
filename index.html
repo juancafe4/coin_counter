@@ -21,7 +21,10 @@
     <div class="row">
       <div class="col s8 offset-s4 z-depth-2">
         <h6 class="center-align"><strong>COIN COUNTER</strong></h6>
+        
+        <!-- Coins -->
         <div class="row">
+          <!-- 25 cents -->
           <div class="coin col m4 offset-m2">
             <div onclick="increase(25)" class="circle">
               <div id="add25">
@@ -30,6 +33,7 @@
               25
             </div>
           </div>
+          <!-- 10 cents -->
           <div class="coin col m4 offset-m2">
             <div onclick="increase(10)" class="circle">
               <div id="add10">
@@ -38,6 +42,8 @@
               10
             </div>
           </div>
+
+          <!-- 5 cents -->
           <div class="coin col m4 offset-m2">
             <div onclick="increase(5)" class="circle">
               <div id="add5">
@@ -46,6 +52,7 @@
               5
             </div>
           </div>
+          <!-- 1 cents -->
           <div class="coin col m4 offset-m2">
             <div onclick="increase(1)"class="circle">
               <div id="add1">
@@ -56,7 +63,8 @@
           </div>
           </div>
           
-          <div class="row bottom">
+          <!-- Total box and buttons -->
+          <div class="row">
             <div class="col s10 offset-s2 m7 offset-m5 center-align">
               <div id="box"></div>
             </div>
